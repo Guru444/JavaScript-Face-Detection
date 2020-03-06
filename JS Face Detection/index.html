@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+body{
+    background-color: #f0f0f0;
+}
+
+#container{
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin : 20px auto;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 5px #000;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.face{
+    position: absolute;
+    border: 2px solid #fff;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>image Processing</title>
+</head>
+<body>
+     <div id="container">
+    <img src="cropped.jpg" alt="" class="image" id="image">
+        </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.facedetection.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
